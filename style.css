@@ -1,0 +1,62 @@
+body{
+    font-family: 'Kanit-Regular';
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 38, 47);
+    font-size: 60px;
+    text-align: left;
+}
+@font-face {
+    font-family: 'Kanit-Regular';
+    src: url(Kanit-Regular.ttf);
+}
+#hen{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+}
+.Second{
+    display: flex;
+    flex-direction: column;
+}
+.Third{
+    display: flex;
+    flex-direction: column;
+}
+.Fourth{
+    display: flex;
+    flex-direction: column;
+}
+.Text1{
+    text-align: left;
+    width: 600px;
+    margin: 25px;
+    -webkit-text-stroke: 2px rgb(0, 116, 129)
+}
+.Second>.Person2{
+    background-image:url(Jeff.png);
+}
+.Second>.Text2{
+    color: white;
+    font-size: 30px;
+}
+.Third>.Person3{
+    background-image:url(Maria.png);
+}
+.Third>.Text3{
+    color: white;
+    font-size: 30px;
+}
+.Fourth>.Person4{
+    background-image:url(Miya.png);
+}
+.Fourth>.Text4{
+    color: white;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1348px) {
+    #hen{
+        flex-direction: column;
+    }
+}
